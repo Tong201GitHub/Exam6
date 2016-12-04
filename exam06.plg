@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: exam06 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/exam06.res" /d "_DEBUG" /d "_AFXDLL" "C:\exam06\exam06.rc"" 
+Creating temporary file "C:\Users\fyrfyr\AppData\Local\Temp\RSP840C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/exam06.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\exam06\exam06.cpp"
+"C:\exam06\exam06Doc.cpp"
+"C:\exam06\exam06View.cpp"
+"C:\exam06\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\fyrfyr\AppData\Local\Temp\RSP840C.tmp" 
+Creating temporary file "C:\Users\fyrfyr\AppData\Local\Temp\RSP840D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/exam06.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\exam06\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\fyrfyr\AppData\Local\Temp\RSP840D.tmp" 
+Creating temporary file "C:\Users\fyrfyr\AppData\Local\Temp\RSP840E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/exam06.pdb" /debug /machine:I386 /out:"Debug/exam06.exe" /pdbtype:sept 
+.\Debug\exam06.obj
+.\Debug\exam06Doc.obj
+.\Debug\exam06View.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\exam06.res
+]
+Creating command line "link.exe @C:\Users\fyrfyr\AppData\Local\Temp\RSP840E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+exam06.cpp
+exam06Doc.cpp
+exam06View.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+exam06.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
